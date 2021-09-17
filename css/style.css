@@ -108,14 +108,85 @@
       color: #404040;
   }
 
-
-
-
-
-
-
-
-
-
-
   /*aside  */
+
+  /* content */
+
+.content_container {
+    padding: 33px 25px;
+}
+.header_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left_header h2 {
+    color: #404040;
+    font-weight: 600;
+    font-size: 43.3726px;
+    line-height: 53px;
+    padding-bottom: 5px;
+}
+
+.left_header p {
+    font-size: 16.0564px;
+    line-height: 20px;
+    color: #AEAEAE;
+}
+
+.right_header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.icon_person{
+    background: #FFC145;
+    border-radius: 50%;
+}
+
+.right_header ul li:last-child a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+
+.icon_account b {
+    color: #404040;  
+}
+
+.icon_account p {
+    font-weight: normal;
+    color: #AEAEAE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* content */
