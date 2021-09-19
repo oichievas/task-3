@@ -1,4 +1,6 @@
 
+
+
 * {
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -121,7 +123,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
+    margin-bottom: 42px;
 }
 
 .left_header h2 {
@@ -169,21 +171,120 @@
     color: #AEAEAE;
 }
 
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: wrap;
+}
 
+.cards {
+  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 59px;
+  padding: 16px;
+}
 
+.cards_title {
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  color: #404040;
+  padding: 14px 0 13px 24px;
+  }
 
+.cards_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
+.card_block {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #E8E8E8;
+  height: 199px;
+  padding-right: 20px;
+}
 
+.card_dollars {
+  padding-left: 34px;
+  padding-right: 28px;
+  text-align: right;
+}
 
+.num {
+  margin-bottom: 13px;
+}
 
+.num .grey_p {
+  padding-top: 4px;
+}
 
+.grey_p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #AEAEAE;
+}
 
+.current {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 22px;
+  color: #197BBD;
 
+}
 
+.income {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #439A86;
+}
 
+.outcome {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #BB4430;
+}
 
+.cards_subwrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
 
+.indicator {
+  padding-left: 34px;
+}
 
+.indicator_grey {
+  width: 320.43px;
+  height: 9.47px;
+  background: #F1F1F1;
+  border-radius: 13.617px;
+  margin-bottom: 10px;
+}
+
+.indicatop_blue{
+  width: 69.25px;
+  height: 9.06px;
+  background: #197BBD;
+  border-radius: 10.7766px;
+}
+
+.title_sum {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+
+.mt {
+  margin-top: 31px;
+}
 
 
 
