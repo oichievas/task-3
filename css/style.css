@@ -92,6 +92,10 @@
     border-radius: 4px;
   }
   
+  .footer_aside {
+    margin-top: 120px;
+  }
+  
   .footer_aside ul li {
       margin-bottom: 15px;
       text-align: center;
@@ -108,6 +112,7 @@
       font-size: 14px;
       line-height: 14px;
       color: #404040;
+      padding-top: 12px;
   }
 
   /*aside  */
@@ -175,14 +180,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  flex-flow: wrap;
 }
+
 
 .cards {
   box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 59px;
-  padding: 16px;
 }
 
 .cards_title {
@@ -205,7 +208,8 @@
   align-items: center;
   border-right: 1px solid #E8E8E8;
   height: 199px;
-  padding-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .card_dollars {
@@ -284,10 +288,219 @@
 
 .mt {
   margin-top: 31px;
+  padding-left: 50px;
+}
+
+.mr {
+  padding-right: 50px;
 }
 
 
+.table {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
 
+.table img {
+  background-color: #EFEFEF;
+  padding: 5px;
+  border-radius: 6.00032px;
+  margin-right: 5px;
+}
 
+.table p {
+  font-size: 18px;
+  line-height: 17px;
+  color: #404040;
+  padding-right: 40px;
+}
 
+.trancaction {
+  font-size: 14px;
+  line-height: 17px;
+  color: #404040;
+  font-weight: bold;
+}
+
+.second_title {
+  padding-left: 0px;
+}
+
+.goals_title {
+  display: flex;
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 20.1118px;
+  line-height: 25px;
+  color: #404040;
+}
+
+.goals_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.goal_box {
+  padding: 12px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+  width: 150.93px;
+  height: 168.74px;
+}
+
+.big_p {
+  font-weight: 600;
+  font-size: 23.9789px;
+  line-height: 29px;
+  color: #696969;
+}
+
+.small_p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #AEAEAE;
+  padding-bottom: 40px;
+}
+
+.under_icon {
+  font-size: 20.1118px;
+  line-height: 25px;
+  color: #404040;
+}
+
+.statistics {
+  margin-top: 47px;
+}
+
+.statistics_wrap {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.statistics_wrap img {
+  padding: 13px 11px;
+  background: #FFEADA;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+
+.statistics_wrap:last-child img {
+  background: #E4F0FF;
+}
+
+.indicator_wrap p {
+  padding-top: 7px;
+}
+
+.statistics_indicator {
+  width: 367.74px;
+  height: 9.47px;
+  background: #F1F1F1;
+  border-radius: 13.617px;
+}
+
+.orange_indicator {
+  width: 195.35px;
+  height: 9.47px;
+  background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
+  border-radius: 10.7766px;
+  }
+
+  .green_indicator {
+    width: 62.12px;
+    height: 9.47px;
+    background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
+    border-radius: 10.7766px;
+  }
+
+  .blue_indicator {
+    width: 281.33px;
+    height: 9.47px;
+    background: #70A6E8;
+    border-radius: 10.7766px;
+  }
+
+  .new_transactions {
+    margin: 42px 0 32px 0;
+  }
+
+  .transactions_wrap {
+    display: flex;
+    gap: 14px;
+  }
+
+  .left_transaction {
+    padding: 18px 12px 12px 12px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 19.0044px;
+  }
+
+  .icons_wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .plus_icon {
+    align-content: space-between;
+  }
+
+  .plus_icon img{
+    padding-top: 10px;
+  }
+
+  .plus_icon p {
+    font-size: 12px;
+    color: #404040;
+    padding-top: 8px;
+  }
+
+  .buttons_wrap {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .left_button {
+    display: flex;
+    gap: 128px;
+    border: 1px solid #197BBD;
+    border-radius: 8px;
+    padding: 3px 10px
+  }
+
+  .left_button p {
+    font-weight: 300;
+  font-size: 23.9789px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #C7C7C7;
+  }
+
+  .right_button button {
+    background: #FFC145;
+    border-radius: 13.617px;
+    border: none;
+    padding: 11px 13px;
+    font-weight: bold;
+    font-size: 11.1442px;
+    color: #404040;
+  }
+
+  .right_transaction {
+    background: linear-gradient(180deg, #ED654C 0%, #D05842 100%);
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 19.0044px;
+    color: #fff;
+    padding: 6px 16px;
+  }
   /* content */
